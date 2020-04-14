@@ -1,59 +1,59 @@
-﻿county,as of,cases,deaths,url,notes
-Alameda,,,,https://services3.arcgis.com/1iDJcsklY3l3KIjE/arcgis/rest/services/COVID_Counts/FeatureServer/0/query?f=json&where=1=1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22max%22%2C%22onStatisticField%22%3A%22AC_CumulDeaths%22%2C%22outStatisticFieldName%22%3A%22deaths%22%7D%2C%7B%22statisticType%22%3A%22max%22%2C%22onStatisticField%22%3A%22AC_CumulCases%22%2C%22outStatisticFieldName%22%3A%22cases%22%7D%5D&cacheHint=true,
-Alpine,,,,http://alpinecountyca.gov/AlertCenter.aspx?AID=COVID19-CASES-12,
-Amador,,,,https://www.amadorgov.org/services/covid-19/-fsiteid-1,"""Amador County Public Health has confirmed 1 county resident traveling abroad has been diagnosed with novel coronavirus (COVID-19). This individual has not been at home in the county."""
-Butte,,,,http://www.buttecounty.net/publichealth/Home/fbclid/IwAR3fSGcPIbTuP9oMALIinPe68ft2E_vscQm2hDlGwwyilvdXog7KZwY9vTw,
-Calaveras,,,,https://covid19.calaverasgov.us/,
-Colusa,,,,http://countyofcolusa.org/99/Public-Health,
-Contra Costa,,,,https://cchealth.org/coronavirus/,
-Del Norte,,,,http://www.co.del-norte.ca.us/departments/health-human-services/public-health,"*these represent ""approximate"" number of tests"
-El Dorado,,,,https://www.edcgov.us/Government/hhsa/Pages/EDCCOVID-19-Cases.aspx,"they say there are ""more than 50"" pending results"
-Fresno,,,,https://www.co.fresno.ca.us/departments/public-health/covid-19,fresno has stats on people who have been monitored and those who are currently being monitored
-Glenn,,,,https://www.countyofglenn.net/dept/health-human-services/public-health/covid-19,
-Humboldt,,,,https://humboldtgov.org/2707/COVID-Test-Results,
-Imperial,,,,http://www.icphd.org/health-information-and-resources/healthy-facts/covid-19/,*(positives) Includes results from private laboratories. (pending) Pending results for Public Health Laboratory testing only.
-Inyo,,,,https://www.inyocounty.us/covid-19/press-releases,"(the testing data is behind the case data, hence 2 positive tests reported, but 1 test reported)"
-Kern,,,,https://kernpublichealth.com/2019-novel-coronavirus/,we no longer include the non-residents listed
-Kings,,,,https://www.countyofkings.com/departments/health-welfare/public-health/coronavirus-disease-2019-covid-19,The number above indicating how many samples have been collected is the number of samples that our department has collected.
-Lake,,,,http://health.co.lake.ca.us/Coronavirus.htm,
-Lassen,,,,http://www.lassencounty.org/government/news/public-health,
-Los Angeles,,,,http://publichealth.lacounty.gov/media/Coronavirus/,
-Madera,,,,https://www.maderacounty.com/government/public-health/corona-virus-covid-19/covid-revised,pending tests only from the public health lab
-Marin,,,,https://coronavirus.marinhhs.org/surveillance,"They sometimes miss our cutoff for reporting sat EOD because they post updates late, so day-to-day change might be off."
-Mariposa,,,,https://www.mariposacounty.org/1592/COVID-19-Information,"These numbers do not include additional testing through the commercial lab system, hospitals and clinics. Although Mariposa County Public Health does not receive information on the number of tests sent through those systems, Public Health is notified of all positive result tests."
-Mendocino,,,,https://www.mendocinocounty.org/community/novel-coronavirus,
-Merced,,,,http://www.co.merced.ca.us/3362/Coronavirus-Media,
-Modoc,,,,https://www.modocsheriff.us/modoc-covid-19-incident-updates,they weirdly link to the sheriff instead of the public health department
-Mono,,,,https://coronavirus.monocounty.ca.gov/,Their numbers are reported on the Inyo county page.
-Monterey,,,,https://www.co.monterey.ca.us/government/departments-a-h/administrative-office/office-of-emergency-services/response/covid-19,"Number of tests only updated on Mondays, according to their site. Total number of tests only results received."
-Napa,,,,https://legacy.livestories.com/s/v2/coronavirus-report-for-napa-county-ca/9065d62d-f5a6-445f-b2a9-b7cf30b846dd/,"Napa has some competing info on different sites, so be careful."
-Nevada,,,,https://www.mynevadacounty.com/2956/COVID-19-Cases-in-Nevada-County,
-Orange,,,,https://occovid19.ochealthinfo.com/coronavirus-in-oc,
-Placer,,,,https://www.placer.ca.gov/6448/Cases-in-Placer,
-Plumas,,,,https://www.plumascounty.us/2669/Novel-Coronavirus-2019,"positive cases updated, but not testing results"
-Riverside,,,,https://www.rivcoph.org/coronavirus,
-Sacramento,,,,https://www.saccounty.net/COVID-19/Pages/default.aspx,
-San Benito,,,,https://hhsa.cosb.us/publichealth/communicable-disease/coronavirus/,
-San Bernardino,,,,http://wp.sbcounty.gov/dph/coronavirus/,
-San Diego,,,,https://www.sandiegocounty.gov/content/sdc/hhsa/programs/phs/community_epidemiology/dc/2019-nCoV/status.html,
-San Francisco,,,,https://www.sfdph.org/dph/alerts/coronavirus.asp,"SF hospitalization numbers are from the health director in a press conference, but they are not releasing them on a daily basis yet."
-San Joaquin,,,,http://www.sjcphs.org/,
-San Luis Obispo,,,,https://www.emergencyslo.org/en/positive-case-details.aspx,Testing numbers don't include private labs positives or negatives.
-San Mateo,,,,https://www.smchealth.org/coronavirus,"Their portal says it was updated on the previous day, but the numbers aren't reported until the next day. So, for example, it says ""data last updated April 8th"" but those numbers are reported on the 9th."
-Santa Barbara,,,,https://publichealthsbc.org/,
-Santa Clara,,,,https://www.sccgov.org/sites/phd/DiseaseInformation/novel-coronavirus/Pages/dashboard.aspx,
-Santa Cruz,,,,https://www.santacruzhealth.org/HSAHome/HSADivisions/PublicHealth/CommunicableDiseaseControl/Coronavirus.aspx,
-Shasta,,,,https://www.co.shasta.ca.us/index/hhsa/health-safety/current-heath-concerns/coronavirus,Numbers are in a video report.
-Sierra,,,,http://www.sierracounty.ca.gov/582/Coronavirus-COVID-19,
-Siskiyou,,,,https://www.co.siskiyou.ca.us/publichealth,
-Solano,,,,http://www.solanocounty.com/depts/ph/ncov.asp,no weekend updates
-Sonoma,,,,https://socoemergency.org/emergency/novel-coronavirus/novel-coronavirus-in-sonoma-county/,"The display ""active cases"" prominently but it doesn't include deaths and recovered. Make sure to pull ""cumulative cases."""
-Stanislaus,,,,http://schsa.org/publichealth/pages/corona-virus/,
-Sutter,,,,https://www.suttercounty.org/doc/government/depts/cao/em/coronavirus,"Yuba and Sutter appear to report together to a certain extent. Testing is reported together, so I'm placing it in sutter/"
-Tehama,,,,https://www.tehamacohealthservices.net/,
-Trinity,,,,https://www.trinitycounty.org/Public-Health,
-Tulare,,,,https://tchhsa.org/eng/index.cfm/public-health/covid-19-updates-novel-coronavirus/,
-Tuolumne,,,,https://www.tuolumnecounty.ca.gov/250/Public-Health,
-Ventura,,,,https://www.vcemergency.com/,
-Yolo,,,,https://www.yolocounty.org/health-human-services/adults/communicable-disease-investigation-and-control/novel-coronavirus-2019,
-Yuba,,,,https://www.yuba.org/coronavirus/,"Yuba and Sutter appear to report together to a certain extent, and info is easier to find on the Sutter county website."
+﻿county,as of,cases,deaths,url
+Alameda,,,,https://services3.arcgis.com/1iDJcsklY3l3KIjE/arcgis/rest/services/COVID_Counts/FeatureServer/0/query?f=json&where=1=1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22max%22%2C%22onStatisticField%22%3A%22AC_CumulDeaths%22%2C%22outStatisticFieldName%22%3A%22deaths%22%7D%2C%7B%22statisticType%22%3A%22max%22%2C%22onStatisticField%22%3A%22AC_CumulCases%22%2C%22outStatisticFieldName%22%3A%22cases%22%7D%5D&cacheHint=true
+Alpine,,,,http://alpinecountyca.gov/AlertCenter.aspx?AID=COVID19-CASES-12
+Amador,,,,https://www.amadorgov.org/services/covid-19/-fsiteid-1
+Butte,,,,http://www.buttecounty.net/publichealth/Home/fbclid/IwAR3fSGcPIbTuP9oMALIinPe68ft2E_vscQm2hDlGwwyilvdXog7KZwY9vTw
+Calaveras,,,,https://covid19.calaverasgov.us/
+Colusa,,,,http://countyofcolusa.org/99/Public-Health
+Contra Costa,,,,https://cchealth.org/coronavirus/
+Del Norte,,,,http://www.co.del-norte.ca.us/departments/health-human-services/public-health
+El Dorado,,,,https://www.edcgov.us/Government/hhsa/Pages/EDCCOVID-19-Cases.aspx
+Fresno,,,,https://www.co.fresno.ca.us/departments/public-health/covid-19
+Glenn,,,,https://www.countyofglenn.net/dept/health-human-services/public-health/covid-19
+Humboldt,,,,https://humboldtgov.org/2707/COVID-Test-Results
+Imperial,,,,http://www.icphd.org/health-information-and-resources/healthy-facts/covid-19/
+Inyo,,,,https://www.inyocounty.us/covid-19/press-releases
+Kern,,,,https://kernpublichealth.com/2019-novel-coronavirus/
+Kings,,,,https://www.countyofkings.com/departments/health-welfare/public-health/coronavirus-disease-2019-covid-19
+Lake,,,,http://health.co.lake.ca.us/Coronavirus.htm
+Lassen,,,,http://www.lassencounty.org/government/news/public-health
+Los Angeles,,,,http://publichealth.lacounty.gov/media/Coronavirus/
+Madera,,,,https://www.maderacounty.com/government/public-health/corona-virus-covid-19/covid-revised
+Marin,,,,https://coronavirus.marinhhs.org/surveillance
+Mariposa,,,,https://www.mariposacounty.org/1592/COVID-19-Information
+Mendocino,,,,https://www.mendocinocounty.org/community/novel-coronavirus
+Merced,,,,http://www.co.merced.ca.us/3362/Coronavirus-Media
+Modoc,,,,https://www.modocsheriff.us/modoc-covid-19-incident-updates
+Mono,,,,https://coronavirus.monocounty.ca.gov/
+Monterey,,,,https://www.co.monterey.ca.us/government/departments-a-h/administrative-office/office-of-emergency-services/response/covid-19
+Napa,,,,https://legacy.livestories.com/s/v2/coronavirus-report-for-napa-county-ca/9065d62d-f5a6-445f-b2a9-b7cf30b846dd/
+Nevada,,,,https://www.mynevadacounty.com/2956/COVID-19-Cases-in-Nevada-County
+Orange,,,,https://occovid19.ochealthinfo.com/coronavirus-in-oc
+Placer,,,,https://www.placer.ca.gov/6448/Cases-in-Placer
+Plumas,,,,https://www.plumascounty.us/2669/Novel-Coronavirus-2019
+Riverside,,,,https://www.rivcoph.org/coronavirus
+Sacramento,,,,https://www.saccounty.net/COVID-19/Pages/default.aspx
+San Benito,,,,https://hhsa.cosb.us/publichealth/communicable-disease/coronavirus/
+San Bernardino,,,,http://wp.sbcounty.gov/dph/coronavirus/
+San Diego,,,,https://www.sandiegocounty.gov/content/sdc/hhsa/programs/phs/community_epidemiology/dc/2019-nCoV/status.html
+San Francisco,,,,https://www.sfdph.org/dph/alerts/coronavirus.asp
+San Joaquin,,,,http://www.sjcphs.org/
+San Luis Obispo,,,,https://www.emergencyslo.org/en/positive-case-details.aspx
+San Mateo,,,,https://www.smchealth.org/coronavirus
+Santa Barbara,,,,https://publichealthsbc.org/
+Santa Clara,,,,https://www.sccgov.org/sites/phd/DiseaseInformation/novel-coronavirus/Pages/dashboard.aspx
+Santa Cruz,,,,https://www.santacruzhealth.org/HSAHome/HSADivisions/PublicHealth/CommunicableDiseaseControl/Coronavirus.aspx
+Shasta,,,,https://www.co.shasta.ca.us/index/hhsa/health-safety/current-heath-concerns/coronavirus
+Sierra,,,,http://www.sierracounty.ca.gov/582/Coronavirus-COVID-19
+Siskiyou,,,,https://www.co.siskiyou.ca.us/publichealth
+Solano,,,,http://www.solanocounty.com/depts/ph/ncov.asp
+Sonoma,,,,https://socoemergency.org/emergency/novel-coronavirus/novel-coronavirus-in-sonoma-county/
+Stanislaus,,,,http://schsa.org/publichealth/pages/corona-virus/
+Sutter,,,,https://www.suttercounty.org/doc/government/depts/cao/em/coronavirus
+Tehama,,,,https://www.tehamacohealthservices.net/
+Trinity,,,,https://www.trinitycounty.org/Public-Health
+Tulare,,,,https://tchhsa.org/eng/index.cfm/public-health/covid-19-updates-novel-coronavirus/
+Tuolumne,,,,https://www.tuolumnecounty.ca.gov/250/Public-Health
+Ventura,,,,https://www.vcemergency.com/
+Yolo,,,,https://www.yolocounty.org/health-human-services/adults/communicable-disease-investigation-and-control/novel-coronavirus-2019
+Yuba,,,,https://www.yuba.org/coronavirus/
